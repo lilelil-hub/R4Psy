@@ -1,0 +1,7 @@
+本复现报告拟选择 Rich 与 Gureckis 关于 “learning trap” 的研究作为复现对象，重点复现反馈信息完整性对学习表现的影响。该研究的核心问题是：人在通过经验学习时，是否一定会随着反馈增多而形成正确判断？作者认为，在某些反馈结构下，个体可能只学到部分有效线索，并因此形成稳定但不完整的策略，即“学习陷阱”。因此，本报告不尝试复现整篇论文的所有实验和模型，而是选择其中最清楚、最适合作为课程作业的一部分：比较 full_info 和 contingent 两种反馈条件下，被试在任务中的正确率变化。
+
+本研究数据包括被试层面的问卷数据和 trial-level 的任务数据。被试层面的数据中，condition 表示被试所属条件，分为 contingent 和 full_info；finalscore 表示最终奖金，rightdimensions 表示被试是否选中了两个真正相关的维度，trapdimensions 表示被试是否只选中了一个正确维度。任务数据中，block 表示任务区块，每个 block 包含 16 个 trial；correct 表示当前 trial 是否选择了最优反应；uniqueid 是被试编号，exclude 表示该记录是否应被排除。数据字典还说明，dim0 和 dim1 始终无关，而 dim2 和 dim3 始终相关，这为判断被试是否真正学到任务结构提供了依据。
+
+具体复现时，我会先下载公开数据和 GitHub 代码，检查数据文件是否与 data key 中的变量一致。随后清理数据，排除 exclude 标记为需要剔除的被试或试次。主分析以 correct 为因变量，以 condition、block 及其交互为核心预测变量。首先按 condition × block 计算平均正确率，并绘制学习曲线：横轴为 block，纵轴为平均正确率，两条线分别表示 full_info 和 contingent 条件。若 full_info 条件正确率更高或上升更快，则说明完整反馈更有利于学习；若 contingent 条件正确率较低或较早停滞，则支持反馈不完整可能导致 learning trap 的解释。
+
+在统计检验上，基础版本可以使用线性模型或方差分析；更规范的版本可以使用 logistic mixed model，例如 correct ~ condition * block + (1 | uniqueid)，因为 correct 是二分类变量，且每个被试贡献多个 trial。补充分析部分，我会比较两组的 finalscore、rightdimensions 和 trapdimensions。如果 contingent 条件下 trapdimensions 比例更高，就说明该组被试更可能只学到一个有效维度，而没有掌握完整规则。最后，在讨论中比较复现结果与原研究结论是否一致，并说明可能的差异来源，例如数据清理方式、模型设定、是否纳入 test phase，以及是否完全按照原作者代码运行。总体来说，本复现范围较集中，主要工作量是数据清理、学习曲线绘制和一个主模型分析，适合个人完成。
