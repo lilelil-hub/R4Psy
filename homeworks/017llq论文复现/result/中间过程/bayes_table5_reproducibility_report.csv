@@ -1,0 +1,9 @@
+"analysis","analysis_type_original","test_type","original_t","original_n","original_p","original_BF01","BF01","BF10","delta_percent_BF01","rating_BF01","original_BF_interpretation","reproduced_BF_interpretation","BF_direction_consistent"
+"Immediate: Guess 1 vs Average","Confirmatory","paired t-test",8.69,"471","< .001",1.8e-14,1.489e-14,6.716e+13,17.28,"偏差较大 δ >= 10%","Evidence favors H1 / difference","Evidence favors H1 / difference",TRUE
+"Immediate: Guess 2 vs Average","Confirmatory","paired t-test",10.26,"471","< .001",7.1e-20,5.823e-20,1.717e+19,17.99,"偏差较大 δ >= 10%","Evidence favors H1 / difference","Evidence favors H1 / difference",TRUE
+"Delayed: Guess 1 vs Average","Confirmatory","paired t-test",4.02,"140","< .001",0.007,0.005839,171.3,16.59,"偏差较大 δ >= 10%","Evidence favors H1 / difference","Evidence favors H1 / difference",TRUE
+"Delayed: Guess 2 vs Average","Confirmatory","paired t-test",8.48,"140","< .001",4.7e-12,4.467e-12,2.239e+11,4.95,"偏差较小 0% < δ < 10%","Evidence favors H1 / difference","Evidence favors H1 / difference",TRUE
+"Immediate: Guess 1 vs Guess 2","Confirmatory","paired t-test",-2.25,"471",".025",2.208,1.58,0.6327,28.42,"偏差较大 δ >= 10%","Evidence favors H0 / no difference","Evidence favors H0 / no difference",TRUE
+"Delayed: Guess 1 vs Guess 2","Confirmatory","paired t-test",-2.91,"140",".004",0.252,0.1908,5.241,24.28,"偏差较大 δ >= 10%","Evidence favors H1 / difference","Evidence favors H1 / difference",TRUE
+"Averaging benefit based on Guess 1: Delayed vs Immediate","Confirmatory","independent t-test",0.18,"471 (n1) & 140 (n2)",".858",12.93,9.228,0.1084,28.64,"偏差较大 δ >= 10%","Evidence favors H0 / no difference","Evidence favors H0 / no difference",TRUE
+"Averaging benefit based on Guess 2: Delayed vs Immediate","Post-hoc","independent t-test",3.14,"471 (n1) & 140 (n2)",".002",0.107,0.08084,12.37,24.45,"偏差较大 δ >= 10%","Evidence favors H1 / difference","Evidence favors H1 / difference",TRUE

@@ -1,0 +1,5 @@
+"Condition","Comparison","Single_MSE_M","Single_MSE_SD","Average_MSE_M","Average_MSE_SD","r","n"
+"Immediate","Guess 1 vs Average",589.29,336.14,541.49,313.41,0.935,471
+"Immediate","Guess 2 vs Average",614.92,350.58,541.49,313.41,0.897,471
+"Delayed","Guess 1 vs Average",517.43,288.07,467.46,260.29,0.861,140
+"Delayed","Guess 2 vs Average",588.89,326.72,467.46,260.29,0.857,140

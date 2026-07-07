@@ -1,0 +1,5 @@
+"analysis","N","t_value","df","p_value_two_tailed","significant_05"
+"Delayed: mse.s1 vs mse.mean",140,4.0217019625469,139,9.43858843229996e-05,TRUE
+"Delayed: mse.s2 vs mse.mean",140,8.47942246871054,139,2.97630873045826e-14,TRUE
+"Immediate: mse.g1 vs mse.mean",471,8.68782993802105,470,6.16392754300182e-17,TRUE
+"Immediate: mse.g2 vs mse.mean",471,10.2624600653388,470,1.97223672369346e-22,TRUE

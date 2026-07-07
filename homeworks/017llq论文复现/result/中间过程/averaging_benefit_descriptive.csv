@@ -1,0 +1,5 @@
+"condition","benefit_type","N","mean_benefit","sd_benefit"
+"Delayed","Guess1_MSE_minus_Mean_MSE",140,49.9720089285714,147.021531926732
+"Immediate","Guess1_MSE_minus_Mean_MSE",471,47.7986863057325,119.402962754185
+"Delayed","Guess2_MSE_minus_Mean_MSE",140,121.429330357143,169.442107419955
+"Immediate","Guess2_MSE_minus_Mean_MSE",471,73.4275610403397,155.280913181018

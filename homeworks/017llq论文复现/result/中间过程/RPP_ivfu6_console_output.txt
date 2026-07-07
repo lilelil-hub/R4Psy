@@ -1,0 +1,47 @@
+Replication analysis: Measuring the crowd within
+Output directory: C:/Users/Administrator/Desktop/论文复现/output 
+
+Sex distribution:
+
+ Mannelijk Vrouwelijk 
+        15        125 
+
+Age mean:
+[1] 21.97143
+
+Age SD:
+[1] 3.09779
+
+Descriptive results:
+                    item     value
+1                      N 140.00000
+2      Female_Vrouwelijk 125.00000
+3         Male_Mannelijk  15.00000
+4               Age_Mean  21.97143
+5                 Age_SD   3.09779
+6      MSE_Session1_Mean 517.42786
+7        MSE_Session1_SD 288.07397
+8      MSE_Session2_Mean 588.88518
+9        MSE_Session2_SD 326.71834
+10 MSE_MeanEstimate_Mean 467.45585
+11   MSE_MeanEstimate_SD 260.28837
+
+Paired t-test result:
+
+	Paired t-test
+
+data:  data.delayed$mse.s1 and data.delayed$mse.mean
+t = 4.0217, df = 139, p-value = 4.719e-05
+alternative hypothesis: true mean difference is greater than 0
+95 percent confidence interval:
+ 29.3966     Inf
+sample estimates:
+mean difference 
+       49.97201 
+
+
+Sample size:
+[1] 140
+
+Effect size Cohen's dz:
+[1] 0.34

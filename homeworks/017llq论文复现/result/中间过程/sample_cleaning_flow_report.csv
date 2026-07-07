@@ -1,0 +1,10 @@
+"condition","step","before_N","excluded_N","after_N"
+"Immediate","Raw data",484,NA,484
+"Immediate","Exclude missing responses",484,11,473
+"Immediate","Exclude self-reported cheating",473,2,471
+"Delayed","Session 1 raw data",NA,NA,231
+"Delayed","Session 2 raw data",NA,NA,171
+"Delayed","Merge Session 1 and Session 2",NA,NA,174
+"Delayed","Exclude defocus_total not equal to 0, including NA",174,33,141
+"Delayed","Exclude missing responses",141,0,141
+"Delayed","Exclude self-reported peaking",141,1,140

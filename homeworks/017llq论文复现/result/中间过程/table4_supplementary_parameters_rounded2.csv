@@ -1,0 +1,5 @@
+"condition","comparison","N","single_mse_mean","single_mse_sd","mean_mse_mean","mean_mse_sd","r_single_mean","t_value","df","p_value_one_tailed","cohen_dz","dz_ci_lower","dz_ci_upper","d33_threshold","dz_greater_than_d33","ci_lower_greater_than_d33"
+"Immediate","Guess 1 vs Average",471,589.293,336.142,541.494,313.407,0.935,8.688,470,0,0.4,0.306,0.494,0.096,TRUE,TRUE
+"Immediate","Guess 2 vs Average",471,614.922,350.575,541.494,313.407,0.897,10.262,470,0,0.473,0.377,0.568,0.096,TRUE,TRUE
+"Delayed","Guess 1 vs Average",140,517.428,288.074,467.456,260.288,0.861,4.022,139,0,0.34,0.169,0.51,0.116,TRUE,TRUE
+"Delayed","Guess 2 vs Average",140,588.885,326.718,467.456,260.288,0.857,8.479,139,0,0.717,0.53,0.901,0.116,TRUE,TRUE

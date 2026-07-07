@@ -1,0 +1,3 @@
+"analysis","N","mean_guess1","mean_guess2","mean_difference","t_value","df","p_value","cohen_dz","alternative","paired"
+"Delayed condition: mse.s1 vs mse.s2",140,517.427857142857,588.885178571429,-71.4573214285714,-2.90590488078925,139,0.00426257001724091,-0.245593787383539,"two.sided",TRUE
+"Immediate condition: mse.g1 vs mse.g2",471,589.292688428875,614.921563163482,-25.6288747346072,-2.25043144780574,470,0.024883159664988,-0.103694407521924,"two.sided",TRUE

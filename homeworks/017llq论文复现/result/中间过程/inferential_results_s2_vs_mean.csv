@@ -1,0 +1,2 @@
+"analysis","N","t_value","df","p_value","cohen_dz","alternative","paired"
+"Delayed condition: mse.s2 > mse.mean",140,8.47942246871054,139,1.48815436522913e-14,0.716641997707129,"greater",TRUE

@@ -1,0 +1,3 @@
+"Condition","N","Age_column_used","Gender_column_used","Age_M","Age_SD"
+"Immediate",471,"age","sex",19.17,2.8
+"Delayed",140,"age","sex",21.97,3.1

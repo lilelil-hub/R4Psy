@@ -1,0 +1,12 @@
+"condition","step","N"
+"Immediate","Raw data",484
+"Immediate","Excluded: missing responses",11
+"Immediate","Excluded: cheated after missing-response exclusion",2
+"Immediate","Final analytic sample",471
+"Delayed","Session 1 raw data",231
+"Delayed","Session 2 raw data",171
+"Delayed","Merged two sessions",174
+"Delayed","Excluded: defocus",21
+"Delayed","Excluded: missing responses after defocus exclusion",0
+"Delayed","Excluded: peaking after previous exclusions",1
+"Delayed","Final analytic sample",140
